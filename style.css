@@ -1,12 +1,102 @@
-/* Made by Michael Fitza Last Modfied 10-30-19 */
-
+/* Made by Michael Fitza Last Modfied 02-12-20 */
+/*adjust margin on signin button with new class or id*/
 .main-sizing {
-    height: 94vh;
+  height: 94vh;
+  width: 100vw;
+    
+  }
+  
+  .top-nav-bar{
+    display: inline;
+    overflow: hidden;
+    font-size: 14px;
+  }
+  
+  
+  a:link {
+    text-decoration:none;
+    color:black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .top-right{
+    float: right;
+    padding: 5px;
+   
+  }
+  
+  .top-left{
+    float:left;
+    padding: 5px;
+  }
+  .nav-text{
+    padding-top: 10px;
+  }
+  
+  
+  
+  #sign-in {
+    background-color: dodgerblue;
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 3px solid;
+    border-radius: 4px;
+  }
+  
+  .logo {
+    transform: scale(0.5);
+    padding-top: 200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .search {
+    width: 300px;
+    height: 40px;
+  }
+  
+  #search-bar {
+    display: block;
+    margin:  0 auto;
+    width: 550px;
+    height: 40px;
+    transform: translate(0px, -55px);
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(227, 221, 220);
+    font-size: 16px;
+  }
+  
+  .submit-button{
+    background: rgb(224, 221, 220);
+    font-size: 15px;
+    display: inline;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 15px;
+    transform: translate(0px, -35px);
+    
+    
+    /* style the damn buttons*/
+  
+  }
+  
+  #submit-lineup{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .bottom-left{
+    padding: 5px;
+    margin-top: 2px;
+  }
+  
+  footer{
+    background: rgb(230, 230, 230);
+    height: 6vh;
     width: 100vw;
-    }
-    
-    .top-nav-bar{
-      display: inline;
-    }
-    
-    
+  }
